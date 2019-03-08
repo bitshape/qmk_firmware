@@ -1,6 +1,6 @@
 #pragma once
 
-#define USE_I2C
+#define USE_SERIAL
 
 #define MASTER_LEFT
 
@@ -10,6 +10,3 @@
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
-
-#undef  TAPPING_TERM
-#define TAPPING_TERM    200
